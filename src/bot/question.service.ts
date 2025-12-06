@@ -29,20 +29,50 @@ export class QuestionService {
       correctIndex: 1
     },
     {
-      text: "Capital of France?",
-      options: ["Paris", "Berlin", "Rome", "Madrid"],
+      text: "5*2=?",
+      options: ["10", "11", "12", "5"],
       correctIndex: 0
     },
     {
-      text: "Which is JS framework?",
-      options: ["Laravel", "Django", "NestJS", "Flask"],
+      text: "8*7=?",
+      options: ["78", "65", "56", "87"],
       correctIndex: 2
     },
     {
       text: "2 * 3 = ?",
       options: ["5", "6", "7", "8"],
       correctIndex: 1
-    }
+    },
+    {
+      text: "4*3 = ?",
+      options: ["34", "12", "21", "43"],
+      correctIndex: 1
+    },
+    {
+      text: "5*4 = ?",
+      options: ["5", "45", "20", "9"],
+      correctIndex: 2
+    },
+    {
+      text: "7*4 = ?",
+      options: ["5", "6", "7", "28"],
+      correctIndex: 3
+    },
+    {
+      text: "(2)*2 = ?",
+      options: ["5", "2", "3", "4"],
+      correctIndex: 3
+    },
+    {
+      text: "15/3 = ?",
+      options: ["5", "6", "7", "8"],
+      correctIndex: 0
+    },
+    {
+      text: "12/2 = ?",
+      options: ["3", "6", "9", "12"],
+      correctIndex: 1
+    },
   ];
 
   async getRandom10() {
